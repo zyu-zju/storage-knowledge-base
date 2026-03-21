@@ -1,6 +1,6 @@
 === 存储技术知识库系统状态检查 ===
-检查时间: 2026-03-21 16:14:24 CST
-系统时间: Sat Mar 21 04:14:24 PM CST 2026
+检查时间: 2026-03-21 16:43:36 CST
+系统时间: Sat Mar 21 04:43:36 PM CST 2026
 
 🖥️  系统信息:
 主机名: zyu-ubuntu-jp
@@ -9,15 +9,15 @@
 
 📁 知识库目录状态:
 知识库路径: /home/ubuntu/.openclaw/workspace/storage-knowledge-base
-目录大小: 492K
-文件数量: 63
-目录数量: 46
+目录大小: 804K
+文件数量: 96
+目录数量: 65
 
 🔧 Git仓库状态:
 当前分支: main
 远程仓库: git@github.com:zyu-zju/storage-knowledge-base.git
-最后提交: 9786449769f2ad61308337880175787563662bbd 2026-03-21 自动更新: 2026年03月21日 16:07:46 的存储技术知识库更新
-未提交更改: 6 个文件
+最后提交: bacc5ddb6fd9643298bc6841e471a3a878d1aa3e 2026-03-21 自动更新: 2026年03月21日 16:22:27 的存储技术知识库更新
+未提交更改: 14 个文件
 
 📊 日志文件状态:
 日志目录: /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs
@@ -27,10 +27,10 @@
 最新的日志文件:
 
 ⏰ 定时任务状态:
-已配置 4 个相关定时任务
+已配置 5 个相关定时任务
 
 # 每天早晨8:00 - 收集存储技术信息
-0 8 * * * cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && python3 scripts/simple-collector.py >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/collection.log 2>&1
+0 8 * * * cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && python3 scripts/real-collector.py >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/collection.log 2>&1
 
 # 每天凌晨2:00 - 同步到GitHub
 0 2 * * * cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && ./scripts/sync-to-github.sh >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/sync.log 2>&1
@@ -40,6 +40,9 @@
 
 # 每天中午12:00 - 检查系统状态
 0 12 * * * cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && [ -f scripts/check-status.sh ] && ./scripts/check-status.sh >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/status.log 2>&1 || true
+
+# 每周日晚上10点 - 深度分析（使用deepseek-reasoner）
+0 22 * * 0 cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && python3 scripts/deep-analysis-reasoner.py >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/deep-analysis.log 2>&1
 
 🛠️  脚本状态:
 ✅ simple-collector.py: 存在且可执行
@@ -56,7 +59,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/vda2        59G   11G   47G  19% /
 
 ⚡ 系统负载:
- 16:14:24 up 17:59,  2 users,  load average: 0.00, 0.02, 0.05
+ 16:43:37 up 18:28,  2 users,  load average: 2.95, 2.35, 1.18
 
 🌐 GitHub连接测试:
 ✅ SSH连接GitHub正常

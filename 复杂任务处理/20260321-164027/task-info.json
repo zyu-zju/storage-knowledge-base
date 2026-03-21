@@ -1,0 +1,15 @@
+{
+  "task_id": "20260321-164027",
+  "task_description": "设计企业级混合云存储架构方案",
+  "created_at": "2026-03-21T16:40:27.462782",
+  "complexity_analysis": {
+    "score": 13.28,
+    "level": "very_high",
+    "model": "deepseek/deepseek-reasoner",
+    "length_bonus": 0.28
+  },
+  "files": {
+    "prompt": "/home/ubuntu/.openclaw/workspace/storage-knowledge-base/复杂任务处理/20260321-164027/prompt.txt",
+    "result": "/home/ubuntu/.openclaw/workspace/storage-knowledge-base/复杂任务处理/20260321-164027/analysis-result.md"
+  }
+}
