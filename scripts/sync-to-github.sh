@@ -137,11 +137,35 @@ perform_git_operations() {
     if git remote | grep -q "origin"; then
         log_info "推送到远程仓库..."
         
+        # 检查是否使用HTTPS URL（需要认证）
+        REMOTE_URL=$(git remote get-url origin)
+        if [[ "$REMOTE_URL" == https://* ]]; then
+            log_warning "检测到HTTPS URL，可能需要用户名/令牌认证"
+            log_info "建议使用SSH URL: git@github.com:用户名/仓库名.git"
+            log_info "或配置Git凭证存储: git config --global credential.helper store"
+        fi
+        
         # 尝试推送，如果失败则尝试设置上游分支
         if ! git push -u origin main 2>/dev/null; then
             log_info "设置上游分支..."
             git branch -M main
-            git push -u origin main
+            
+            # 如果推送失败，显示详细错误
+            PUSH_OUTPUT=$(git push -u origin main 2>&1)
+            if [ $? -ne 0 ]; then
+                log_error "推送失败:"
+                echo "$PUSH_OUTPUT"
+                log_info "可能的原因:"
+                log_info "1. 没有权限访问仓库"
+                log_info "2. 需要用户名/密码认证"
+                log_info "3. 网络连接问题"
+                log_info ""
+                log_info "解决方案:"
+                log_info "A. 使用SSH方式: git remote set-url origin git@github.com:zyu-zju/storage-knowledge-base.git"
+                log_info "B. 配置Git凭证: git config --global credential.helper store"
+                log_info "C. 使用Personal Access Token作为密码"
+                return 1
+            fi
         fi
         
         log_success "推送完成"

@@ -42,8 +42,36 @@ pip install -r requirements.txt
 git config --global user.email "your-email@example.com"
 git config --global user.name "Your Name"
 
-# 配置远程仓库（如果需要推送到自己的GitHub）
-git remote set-url origin https://github.com/yourusername/storage-knowledge-base.git
+# 配置远程仓库（推荐使用SSH方式）
+git remote add origin git@github.com:yourusername/storage-knowledge-base.git
+
+# 或者使用HTTPS方式（需要配置认证）
+# git remote add origin https://github.com/yourusername/storage-knowledge-base.git
+```
+
+### 步骤3.1: GitHub认证配置（重要！）
+**选择一种认证方式：**
+
+#### 选项A: SSH方式（推荐）
+```bash
+# 1. 生成SSH密钥（如果还没有）
+ssh-keygen -t ed25519 -C "your-email@example.com"
+
+# 2. 添加公钥到GitHub
+cat ~/.ssh/id_ed25519.pub
+# 复制输出，添加到 GitHub → Settings → SSH and GPG keys
+
+# 3. 测试连接
+ssh -T git@github.com
+```
+
+#### 选项B: HTTPS + Personal Access Token
+```bash
+# 1. 创建令牌: https://github.com/settings/tokens
+# 2. 启用凭证存储
+git config --global credential.helper store
+
+# 3. 第一次推送时需要输入令牌作为密码
 ```
 
 ### 步骤4: 测试安装
