@@ -1,0 +1,437 @@
+{
+  "collected_data": {
+    "date": "2026-03-24",
+    "sources_checked": [
+      "AWS Storage Blog",
+      "Azure Storage Updates",
+      "Google Cloud Blog - Storage",
+      "StorageReview",
+      "Blocks & Files"
+    ],
+    "articles_found": 10,
+    "articles_by_source": {
+      "AWS Storage Blog": 5,
+      "StorageReview": 5
+    },
+    "top_keywords": [
+      [
+        "storage",
+        [
+          {
+            "title": "Implementing Persistent Storage for AWS Fargate and Amazon EBS",
+            "link": "https://aws.amazon.com/blogs/storage/attaching-block-storage-with-aws-fargate-and-amazon-ebs-volumes/",
+            "date": "Tue, 17 Mar 2026 12:37:25 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "EBS",
+              "storage"
+            ]
+          },
+          {
+            "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+            "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+            "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "AWS Storage at re:Invent 2025: Every session, organized by topic",
+            "link": "https://aws.amazon.com/blogs/storage/aws-storage-at-reinvent-2025/",
+            "date": "Wed, 11 Mar 2026 16:52:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
+            "link": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/",
+            "date": "Wed, 11 Mar 2026 14:02:27 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
+            "link": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/",
+            "date": "Thu, 05 Mar 2026 15:24:11 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "Storage Reference Guide",
+            "link": "https://www.storagereview.com/storage-reference-guide",
+            "date": "2026-03-24",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "StorageReview.com Sweepstakes Rules and Regulations",
+            "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+            "date": "2026-03-24",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "Windows Server 2025 Native NVMe: Storage Stack Overhaul and Benchmark Results",
+            "link": "https://www.storagereview.com/review/windows-server-native-nvme",
+            "date": "2026-03-24",
+            "source": "StorageReview",
+            "keywords": [
+              "NVMe",
+              "storage"
+            ]
+          },
+          {
+            "title": "HPE Alletra Storage MP X10000 with the Data Protection Accelerator Node: Backup without the Bottleneck",
+            "link": "https://www.storagereview.com/review/hpe-alletra-storage-mp-x10000-with-the-data-protection-accelerator-node-backup-without-the-bottleneck",
+            "date": "2026-03-24",
+            "source": "StorageReview",
+            "keywords": [
+              "Backup",
+              "storage",
+              "data protection"
+            ]
+          }
+        ]
+      ],
+      [
+        "S3",
+        [
+          {
+            "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+            "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+            "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
+            "link": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/",
+            "date": "Wed, 11 Mar 2026 14:02:27 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
+            "link": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/",
+            "date": "Thu, 05 Mar 2026 15:24:11 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "File",
+        [
+          {
+            "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
+            "link": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/",
+            "date": "Wed, 11 Mar 2026 14:02:27 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
+            "link": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/",
+            "date": "Thu, 05 Mar 2026 15:24:11 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "file storage",
+        [
+          {
+            "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
+            "link": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/",
+            "date": "Wed, 11 Mar 2026 14:02:27 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
+            "link": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/",
+            "date": "Thu, 05 Mar 2026 15:24:11 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "FSx",
+        [
+          {
+            "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
+            "link": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/",
+            "date": "Wed, 11 Mar 2026 14:02:27 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          },
+          {
+            "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
+            "link": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/",
+            "date": "Thu, 05 Mar 2026 15:24:11 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "file storage",
+              "FSx",
+              "S3",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "EBS",
+        [
+          {
+            "title": "Implementing Persistent Storage for AWS Fargate and Amazon EBS",
+            "link": "https://aws.amazon.com/blogs/storage/attaching-block-storage-with-aws-fargate-and-amazon-ebs-volumes/",
+            "date": "Tue, 17 Mar 2026 12:37:25 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "EBS",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "Disk",
+        [
+          {
+            "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+            "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+            "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "S3",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "SAN",
+        [
+          {
+            "title": "Emulex SecureHBA Enables Autonomous Fibre Channel SAN Encryption with Everpure FlashArray",
+            "link": "https://www.storagereview.com/review/emulex-securehba-san-manager-everpure-xl130-r5",
+            "date": "2026-03-24",
+            "source": "StorageReview",
+            "keywords": [
+              "SAN",
+              "encryption"
+            ]
+          }
+        ]
+      ],
+      [
+        "encryption",
+        [
+          {
+            "title": "Emulex SecureHBA Enables Autonomous Fibre Channel SAN Encryption with Everpure FlashArray",
+            "link": "https://www.storagereview.com/review/emulex-securehba-san-manager-everpure-xl130-r5",
+            "date": "2026-03-24",
+            "source": "StorageReview",
+            "keywords": [
+              "SAN",
+              "encryption"
+            ]
+          }
+        ]
+      ],
+      [
+        "NVMe",
+        [
+          {
+            "title": "Windows Server 2025 Native NVMe: Storage Stack Overhaul and Benchmark Results",
+            "link": "https://www.storagereview.com/review/windows-server-native-nvme",
+            "date": "2026-03-24",
+            "source": "StorageReview",
+            "keywords": [
+              "NVMe",
+              "storage"
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "articles": [
+    {
+      "title": "Implementing Persistent Storage for AWS Fargate and Amazon EBS",
+      "link": "https://aws.amazon.com/blogs/storage/attaching-block-storage-with-aws-fargate-and-amazon-ebs-volumes/",
+      "date": "Tue, 17 Mar 2026 12:37:25 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "EBS",
+        "storage"
+      ]
+    },
+    {
+      "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+      "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+      "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "Disk",
+        "S3",
+        "storage"
+      ]
+    },
+    {
+      "title": "AWS Storage at re:Invent 2025: Every session, organized by topic",
+      "link": "https://aws.amazon.com/blogs/storage/aws-storage-at-reinvent-2025/",
+      "date": "Wed, 11 Mar 2026 16:52:33 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "Automated malware scanning for Amazon FSx for Windows File Server with GuardDuty protection for Amazon S3",
+      "link": "https://aws.amazon.com/blogs/storage/automated-malware-scanning-for-amazon-fsx-for-windows-file-server-with-guardduty-protection-for-amazon-s3/",
+      "date": "Wed, 11 Mar 2026 14:02:27 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "File",
+        "file storage",
+        "FSx",
+        "S3",
+        "storage"
+      ]
+    },
+    {
+      "title": "Bridge legacy and modern applications with Amazon S3 Access Points for Amazon FSx",
+      "link": "https://aws.amazon.com/blogs/storage/bridge-legacy-and-modern-applications-with-amazon-s3-access-points-for-amazon-fsx/",
+      "date": "Thu, 05 Mar 2026 15:24:11 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "File",
+        "file storage",
+        "FSx",
+        "S3",
+        "storage"
+      ]
+    },
+    {
+      "title": "Storage Reference Guide",
+      "link": "https://www.storagereview.com/storage-reference-guide",
+      "date": "2026-03-24",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "StorageReview.com Sweepstakes Rules and Regulations",
+      "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+      "date": "2026-03-24",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "Emulex SecureHBA Enables Autonomous Fibre Channel SAN Encryption with Everpure FlashArray",
+      "link": "https://www.storagereview.com/review/emulex-securehba-san-manager-everpure-xl130-r5",
+      "date": "2026-03-24",
+      "source": "StorageReview",
+      "keywords": [
+        "SAN",
+        "encryption"
+      ]
+    },
+    {
+      "title": "Windows Server 2025 Native NVMe: Storage Stack Overhaul and Benchmark Results",
+      "link": "https://www.storagereview.com/review/windows-server-native-nvme",
+      "date": "2026-03-24",
+      "source": "StorageReview",
+      "keywords": [
+        "NVMe",
+        "storage"
+      ]
+    },
+    {
+      "title": "HPE Alletra Storage MP X10000 with the Data Protection Accelerator Node: Backup without the Bottleneck",
+      "link": "https://www.storagereview.com/review/hpe-alletra-storage-mp-x10000-with-the-data-protection-accelerator-node-backup-without-the-bottleneck",
+      "date": "2026-03-24",
+      "source": "StorageReview",
+      "keywords": [
+        "Backup",
+        "storage",
+        "data protection"
+      ]
+    }
+  ]
+}
