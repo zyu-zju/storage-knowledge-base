@@ -1,0 +1,328 @@
+{
+  "collected_data": {
+    "date": "2026-03-29",
+    "sources_checked": [
+      "AWS Storage Blog",
+      "Azure Storage Updates",
+      "Google Cloud Blog - Storage",
+      "StorageReview",
+      "Blocks & Files"
+    ],
+    "articles_found": 9,
+    "articles_by_source": {
+      "AWS Storage Blog": 5,
+      "StorageReview": 4
+    },
+    "top_keywords": [
+      [
+        "storage",
+        [
+          {
+            "title": "Implementing Persistent Storage for AWS Fargate and Amazon EBS",
+            "link": "https://aws.amazon.com/blogs/storage/attaching-block-storage-with-aws-fargate-and-amazon-ebs-volumes/",
+            "date": "Tue, 17 Mar 2026 12:37:25 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "EBS",
+              "storage"
+            ]
+          },
+          {
+            "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+            "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+            "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "S3"
+            ]
+          },
+          {
+            "title": "AWS Storage at re:Invent 2025: Every session, organized by topic",
+            "link": "https://aws.amazon.com/blogs/storage/aws-storage-at-reinvent-2025/",
+            "date": "Wed, 11 Mar 2026 16:52:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "Storage Reference Guide",
+            "link": "https://www.storagereview.com/storage-reference-guide",
+            "date": "2026-03-29",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "StorageReview.com Sweepstakes Rules and Regulations",
+            "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+            "date": "2026-03-29",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "Windows Server 2025 Native NVMe: Storage Stack Overhaul and Benchmark Results",
+            "link": "https://www.storagereview.com/review/windows-server-native-nvme",
+            "date": "2026-03-29",
+            "source": "StorageReview",
+            "keywords": [
+              "storage",
+              "NVMe"
+            ]
+          }
+        ]
+      ],
+      [
+        "S3",
+        [
+          {
+            "title": "Secure SFTP file sharing with AWS Transfer Family, Amazon FSx for NetApp ONTAP, and S3 Access Points",
+            "link": "https://aws.amazon.com/blogs/storage/secure-sftp-file-sharing-with-aws-transfer-family-amazon-fsx-for-netapp-ontap-and-s3-access-points/",
+            "date": "Wed, 25 Mar 2026 18:03:59 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "FSx",
+              "S3"
+            ]
+          },
+          {
+            "title": "How Tavily reduced AI search caching costs by 95% with Amazon S3 Express One Zone",
+            "link": "https://aws.amazon.com/blogs/storage/how-tavily-reduced-ai-search-caching-costs-by-95-with-amazon-s3-express-one-zone/",
+            "date": "Wed, 25 Mar 2026 14:13:27 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "SAN",
+              "S3"
+            ]
+          },
+          {
+            "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+            "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+            "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "S3"
+            ]
+          }
+        ]
+      ],
+      [
+        "SAN",
+        [
+          {
+            "title": "How Tavily reduced AI search caching costs by 95% with Amazon S3 Express One Zone",
+            "link": "https://aws.amazon.com/blogs/storage/how-tavily-reduced-ai-search-caching-costs-by-95-with-amazon-s3-express-one-zone/",
+            "date": "Wed, 25 Mar 2026 14:13:27 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "SAN",
+              "S3"
+            ]
+          },
+          {
+            "title": "Emulex SecureHBA Enables Autonomous Fibre Channel SAN Encryption with Everpure FlashArray",
+            "link": "https://www.storagereview.com/review/emulex-securehba-san-manager-everpure-xl130-r5",
+            "date": "2026-03-29",
+            "source": "StorageReview",
+            "keywords": [
+              "encryption",
+              "SAN"
+            ]
+          }
+        ]
+      ],
+      [
+        "File",
+        [
+          {
+            "title": "Secure SFTP file sharing with AWS Transfer Family, Amazon FSx for NetApp ONTAP, and S3 Access Points",
+            "link": "https://aws.amazon.com/blogs/storage/secure-sftp-file-sharing-with-aws-transfer-family-amazon-fsx-for-netapp-ontap-and-s3-access-points/",
+            "date": "Wed, 25 Mar 2026 18:03:59 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "FSx",
+              "S3"
+            ]
+          }
+        ]
+      ],
+      [
+        "FSx",
+        [
+          {
+            "title": "Secure SFTP file sharing with AWS Transfer Family, Amazon FSx for NetApp ONTAP, and S3 Access Points",
+            "link": "https://aws.amazon.com/blogs/storage/secure-sftp-file-sharing-with-aws-transfer-family-amazon-fsx-for-netapp-ontap-and-s3-access-points/",
+            "date": "Wed, 25 Mar 2026 18:03:59 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "FSx",
+              "S3"
+            ]
+          }
+        ]
+      ],
+      [
+        "EBS",
+        [
+          {
+            "title": "Implementing Persistent Storage for AWS Fargate and Amazon EBS",
+            "link": "https://aws.amazon.com/blogs/storage/attaching-block-storage-with-aws-fargate-and-amazon-ebs-volumes/",
+            "date": "Tue, 17 Mar 2026 12:37:25 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "EBS",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "Disk",
+        [
+          {
+            "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+            "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+            "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "S3"
+            ]
+          }
+        ]
+      ],
+      [
+        "encryption",
+        [
+          {
+            "title": "Emulex SecureHBA Enables Autonomous Fibre Channel SAN Encryption with Everpure FlashArray",
+            "link": "https://www.storagereview.com/review/emulex-securehba-san-manager-everpure-xl130-r5",
+            "date": "2026-03-29",
+            "source": "StorageReview",
+            "keywords": [
+              "encryption",
+              "SAN"
+            ]
+          }
+        ]
+      ],
+      [
+        "NVMe",
+        [
+          {
+            "title": "Windows Server 2025 Native NVMe: Storage Stack Overhaul and Benchmark Results",
+            "link": "https://www.storagereview.com/review/windows-server-native-nvme",
+            "date": "2026-03-29",
+            "source": "StorageReview",
+            "keywords": [
+              "storage",
+              "NVMe"
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "articles": [
+    {
+      "title": "Secure SFTP file sharing with AWS Transfer Family, Amazon FSx for NetApp ONTAP, and S3 Access Points",
+      "link": "https://aws.amazon.com/blogs/storage/secure-sftp-file-sharing-with-aws-transfer-family-amazon-fsx-for-netapp-ontap-and-s3-access-points/",
+      "date": "Wed, 25 Mar 2026 18:03:59 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "File",
+        "FSx",
+        "S3"
+      ]
+    },
+    {
+      "title": "How Tavily reduced AI search caching costs by 95% with Amazon S3 Express One Zone",
+      "link": "https://aws.amazon.com/blogs/storage/how-tavily-reduced-ai-search-caching-costs-by-95-with-amazon-s3-express-one-zone/",
+      "date": "Wed, 25 Mar 2026 14:13:27 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "SAN",
+        "S3"
+      ]
+    },
+    {
+      "title": "Implementing Persistent Storage for AWS Fargate and Amazon EBS",
+      "link": "https://aws.amazon.com/blogs/storage/attaching-block-storage-with-aws-fargate-and-amazon-ebs-volumes/",
+      "date": "Tue, 17 Mar 2026 12:37:25 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "EBS",
+        "storage"
+      ]
+    },
+    {
+      "title": "20 years of Amazon S3: A storage professional’s journey to AWS Hero",
+      "link": "https://aws.amazon.com/blogs/storage/20-years-of-amazon-s3-a-storage-professionals-journey-to-aws-hero/",
+      "date": "Mon, 16 Mar 2026 18:43:17 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "Disk",
+        "storage",
+        "S3"
+      ]
+    },
+    {
+      "title": "AWS Storage at re:Invent 2025: Every session, organized by topic",
+      "link": "https://aws.amazon.com/blogs/storage/aws-storage-at-reinvent-2025/",
+      "date": "Wed, 11 Mar 2026 16:52:33 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "Storage Reference Guide",
+      "link": "https://www.storagereview.com/storage-reference-guide",
+      "date": "2026-03-29",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "StorageReview.com Sweepstakes Rules and Regulations",
+      "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+      "date": "2026-03-29",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "Emulex SecureHBA Enables Autonomous Fibre Channel SAN Encryption with Everpure FlashArray",
+      "link": "https://www.storagereview.com/review/emulex-securehba-san-manager-everpure-xl130-r5",
+      "date": "2026-03-29",
+      "source": "StorageReview",
+      "keywords": [
+        "encryption",
+        "SAN"
+      ]
+    },
+    {
+      "title": "Windows Server 2025 Native NVMe: Storage Stack Overhaul and Benchmark Results",
+      "link": "https://www.storagereview.com/review/windows-server-native-nvme",
+      "date": "2026-03-29",
+      "source": "StorageReview",
+      "keywords": [
+        "storage",
+        "NVMe"
+      ]
+    }
+  ]
+}
