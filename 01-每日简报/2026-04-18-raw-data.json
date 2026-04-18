@@ -1,0 +1,315 @@
+{
+  "collected_data": {
+    "date": "2026-04-18",
+    "sources_checked": [
+      "AWS Storage Blog",
+      "Azure Storage Updates",
+      "Google Cloud Blog - Storage",
+      "StorageReview",
+      "Blocks & Files"
+    ],
+    "articles_found": 8,
+    "articles_by_source": {
+      "AWS Storage Blog": 5,
+      "StorageReview": 3
+    },
+    "top_keywords": [
+      [
+        "storage",
+        [
+          {
+            "title": "Streamline ransomware protection while reducing cost with logically air-gapped vault primary backup",
+            "link": "https://aws.amazon.com/blogs/storage/streamline-ransomware-protection-while-reducing-cost-with-logically-air-gapped-vault-primary-backup/",
+            "date": "Tue, 14 Apr 2026 18:38:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Backup",
+              "storage"
+            ]
+          },
+          {
+            "title": "From hours to minutes: Rethinking Oracle database operations with Amazon FSx for OpenZFS",
+            "link": "https://aws.amazon.com/blogs/storage/from-hours-to-minutes-rethinking-oracle-databases-operations-with-amazon-fsx-for-openzfs/",
+            "date": "Thu, 09 Apr 2026 16:26:22 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "FSx",
+              "block storage",
+              "File"
+            ]
+          },
+          {
+            "title": "Storage Reference Guide",
+            "link": "https://www.storagereview.com/storage-reference-guide",
+            "date": "2026-04-18",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "StorageReview.com Sweepstakes Rules and Regulations",
+            "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+            "date": "2026-04-18",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "FSx",
+        [
+          {
+            "title": "From hours to minutes: Rethinking Oracle database operations with Amazon FSx for OpenZFS",
+            "link": "https://aws.amazon.com/blogs/storage/from-hours-to-minutes-rethinking-oracle-databases-operations-with-amazon-fsx-for-openzfs/",
+            "date": "Thu, 09 Apr 2026 16:26:22 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "FSx",
+              "block storage",
+              "File"
+            ]
+          },
+          {
+            "title": "Managing NTFS permissions at scale on Amazon FSx for NetApp ONTAP",
+            "link": "https://aws.amazon.com/blogs/storage/manage-ntfs-permissions-at-scale-on-amazon-fsx-for-netapp-ontap/",
+            "date": "Tue, 07 Apr 2026 15:49:28 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "FSx",
+              "File"
+            ]
+          }
+        ]
+      ],
+      [
+        "File",
+        [
+          {
+            "title": "From hours to minutes: Rethinking Oracle database operations with Amazon FSx for OpenZFS",
+            "link": "https://aws.amazon.com/blogs/storage/from-hours-to-minutes-rethinking-oracle-databases-operations-with-amazon-fsx-for-openzfs/",
+            "date": "Thu, 09 Apr 2026 16:26:22 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "FSx",
+              "block storage",
+              "File"
+            ]
+          },
+          {
+            "title": "Managing NTFS permissions at scale on Amazon FSx for NetApp ONTAP",
+            "link": "https://aws.amazon.com/blogs/storage/manage-ntfs-permissions-at-scale-on-amazon-fsx-for-netapp-ontap/",
+            "date": "Tue, 07 Apr 2026 15:49:28 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "FSx",
+              "File"
+            ]
+          }
+        ]
+      ],
+      [
+        "disaster recovery",
+        [
+          {
+            "title": "Accelerate development workflows with Amazon EBS Volume Clones",
+            "link": "https://aws.amazon.com/blogs/storage/accelerate-development-workflows-with-amazon-ebs-volume-clones/",
+            "date": "Fri, 17 Apr 2026 19:25:24 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "disaster recovery",
+              "EBS"
+            ]
+          }
+        ]
+      ],
+      [
+        "EBS",
+        [
+          {
+            "title": "Accelerate development workflows with Amazon EBS Volume Clones",
+            "link": "https://aws.amazon.com/blogs/storage/accelerate-development-workflows-with-amazon-ebs-volume-clones/",
+            "date": "Fri, 17 Apr 2026 19:25:24 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "disaster recovery",
+              "EBS"
+            ]
+          }
+        ]
+      ],
+      [
+        "Backup",
+        [
+          {
+            "title": "Streamline ransomware protection while reducing cost with logically air-gapped vault primary backup",
+            "link": "https://aws.amazon.com/blogs/storage/streamline-ransomware-protection-while-reducing-cost-with-logically-air-gapped-vault-primary-backup/",
+            "date": "Tue, 14 Apr 2026 18:38:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Backup",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "S3",
+        [
+          {
+            "title": "Building automated AWS Regional availability checks with Amazon S3",
+            "link": "https://aws.amazon.com/blogs/storage/building-automated-aws-regional-availability-checks-with-amazon-s3/",
+            "date": "Thu, 09 Apr 2026 18:42:19 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "S3",
+              "availability"
+            ]
+          }
+        ]
+      ],
+      [
+        "availability",
+        [
+          {
+            "title": "Building automated AWS Regional availability checks with Amazon S3",
+            "link": "https://aws.amazon.com/blogs/storage/building-automated-aws-regional-availability-checks-with-amazon-s3/",
+            "date": "Thu, 09 Apr 2026 18:42:19 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "S3",
+              "availability"
+            ]
+          }
+        ]
+      ],
+      [
+        "Disk",
+        [
+          {
+            "title": "From hours to minutes: Rethinking Oracle database operations with Amazon FSx for OpenZFS",
+            "link": "https://aws.amazon.com/blogs/storage/from-hours-to-minutes-rethinking-oracle-databases-operations-with-amazon-fsx-for-openzfs/",
+            "date": "Thu, 09 Apr 2026 16:26:22 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "FSx",
+              "block storage",
+              "File"
+            ]
+          }
+        ]
+      ],
+      [
+        "block storage",
+        [
+          {
+            "title": "From hours to minutes: Rethinking Oracle database operations with Amazon FSx for OpenZFS",
+            "link": "https://aws.amazon.com/blogs/storage/from-hours-to-minutes-rethinking-oracle-databases-operations-with-amazon-fsx-for-openzfs/",
+            "date": "Thu, 09 Apr 2026 16:26:22 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Disk",
+              "storage",
+              "FSx",
+              "block storage",
+              "File"
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "articles": [
+    {
+      "title": "Accelerate development workflows with Amazon EBS Volume Clones",
+      "link": "https://aws.amazon.com/blogs/storage/accelerate-development-workflows-with-amazon-ebs-volume-clones/",
+      "date": "Fri, 17 Apr 2026 19:25:24 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "disaster recovery",
+        "EBS"
+      ]
+    },
+    {
+      "title": "Streamline ransomware protection while reducing cost with logically air-gapped vault primary backup",
+      "link": "https://aws.amazon.com/blogs/storage/streamline-ransomware-protection-while-reducing-cost-with-logically-air-gapped-vault-primary-backup/",
+      "date": "Tue, 14 Apr 2026 18:38:33 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "Backup",
+        "storage"
+      ]
+    },
+    {
+      "title": "Building automated AWS Regional availability checks with Amazon S3",
+      "link": "https://aws.amazon.com/blogs/storage/building-automated-aws-regional-availability-checks-with-amazon-s3/",
+      "date": "Thu, 09 Apr 2026 18:42:19 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "S3",
+        "availability"
+      ]
+    },
+    {
+      "title": "From hours to minutes: Rethinking Oracle database operations with Amazon FSx for OpenZFS",
+      "link": "https://aws.amazon.com/blogs/storage/from-hours-to-minutes-rethinking-oracle-databases-operations-with-amazon-fsx-for-openzfs/",
+      "date": "Thu, 09 Apr 2026 16:26:22 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "Disk",
+        "storage",
+        "FSx",
+        "block storage",
+        "File"
+      ]
+    },
+    {
+      "title": "Managing NTFS permissions at scale on Amazon FSx for NetApp ONTAP",
+      "link": "https://aws.amazon.com/blogs/storage/manage-ntfs-permissions-at-scale-on-amazon-fsx-for-netapp-ontap/",
+      "date": "Tue, 07 Apr 2026 15:49:28 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "FSx",
+        "File"
+      ]
+    },
+    {
+      "title": "Storage Reference Guide",
+      "link": "https://www.storagereview.com/storage-reference-guide",
+      "date": "2026-04-18",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "StorageReview.com Sweepstakes Rules and Regulations",
+      "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+      "date": "2026-04-18",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "NVMe Performance Compared: Windows Server 2025 vs. Ubuntu Server 24.04.4 LTS",
+      "link": "https://www.storagereview.com/review/linux-vs-windows-server-2025-native-nvme",
+      "date": "2026-04-18",
+      "source": "StorageReview",
+      "keywords": [
+        "NVMe",
+        "performance"
+      ]
+    }
+  ]
+}
