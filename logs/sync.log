@@ -1112,3 +1112,35 @@ branch 'main' set up to track 'origin/main'.
 [0;34m[INFO][0m 生成更新摘要...
 [0;32m[SUCCESS][0m 更新摘要生成完成
 [0;34m[INFO][0m 执行 Git 操作...
+[main 0a84f38] 自动更新: 2026年04月25日 02:00:01 的存储技术知识库更新
+ 10 files changed, 669 insertions(+), 6 deletions(-)
+ create mode 100644 "01-\346\257\217\346\227\245\347\256\200\346\212\245/2026-04-24-raw-data.json"
+ create mode 100644 "01-\346\257\217\346\227\245\347\256\200\346\212\245/2026-04-24-\345\255\230\345\202\250\346\212\200\346\234\257\346\227\245\346\212\245-\347\234\237\345\256\236\346\225\260\346\215\256.md"
+ create mode 100644 logs/system-status-20260424.txt
+ create mode 100644 "\345\220\214\346\255\245\346\212\245\345\221\212-20260424-020006.txt"
+[0;34m[INFO][0m 推送到远程仓库...
+branch 'main' set up to track 'origin/main'.
+[0;32m[SUCCESS][0m 推送完成
+[0;34m[INFO][0m 生成同步报告...
+[0;32m[SUCCESS][0m 同步报告生成完成: /home/ubuntu/.openclaw/workspace/storage-knowledge-base/同步报告-20260425-020004.txt
+[0;32m[SUCCESS][0m 知识库同步流程完成!
+
+[0;34m[INFO][0m 下一步建议:
+1. 如果需要推送到 GitHub，请先配置远程仓库:
+   cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base
+   git remote add origin <你的GitHub仓库URL>
+   git branch -M main
+   git push -u origin main
+
+2. 可以设置定时任务自动执行此脚本:
+   crontab -e
+   # 添加以下行（每天凌晨2点执行）
+   0 2 * * * /home/ubuntu/.openclaw/workspace/storage-knowledge-base/scripts/sync-to-github.sh >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/sync.log 2>&1
+[0;34m[INFO][0m 开始同步存储技术知识库到 GitHub...
+[0;34m[INFO][0m 知识库目录: /home/ubuntu/.openclaw/workspace/storage-knowledge-base
+[0;34m[INFO][0m 提交信息: 自动更新: 2026年04月26日 02:00:01 的存储技术知识库更新
+[0;34m[INFO][0m Git 仓库已存在
+[0;34m[INFO][0m 远程仓库已配置
+[0;34m[INFO][0m 生成更新摘要...
+[0;32m[SUCCESS][0m 更新摘要生成完成
+[0;34m[INFO][0m 执行 Git 操作...
