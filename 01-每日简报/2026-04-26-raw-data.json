@@ -1,0 +1,318 @@
+{
+  "collected_data": {
+    "date": "2026-04-26",
+    "sources_checked": [
+      "AWS Storage Blog",
+      "Azure Storage Updates",
+      "Google Cloud Blog - Storage",
+      "StorageReview",
+      "Blocks & Files"
+    ],
+    "articles_found": 9,
+    "articles_by_source": {
+      "AWS Storage Blog": 5,
+      "StorageReview": 4
+    },
+    "top_keywords": [
+      [
+        "S3",
+        [
+          {
+            "title": "Migrate to Amazon S3 account regional namespaces",
+            "link": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/",
+            "date": "Fri, 24 Apr 2026 15:48:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "S3"
+            ]
+          },
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "storage",
+              "S3",
+              "FSx"
+            ]
+          },
+          {
+            "title": "Troubleshooting Amazon S3 access denied errors using Kiro CLI",
+            "link": "https://aws.amazon.com/blogs/storage/troubleshooting-amazon-s3-access-denied-errors-using-kiro-cli/",
+            "date": "Mon, 20 Apr 2026 18:33:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "storage",
+              "S3"
+            ]
+          },
+          {
+            "title": "Accelerate Apache Hadoop and Apache Iceberg on Amazon S3 with the Analytics Accelerator Library",
+            "link": "https://aws.amazon.com/blogs/storage/accelerate-apache-hadoop-and-apache-iceberg-on-amazon-s3-with-the-analytics-accelerator-library/",
+            "date": "Mon, 20 Apr 2026 15:26:41 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "S3",
+              "performance"
+            ]
+          }
+        ]
+      ],
+      [
+        "storage",
+        [
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "storage",
+              "S3",
+              "FSx"
+            ]
+          },
+          {
+            "title": "Troubleshooting Amazon S3 access denied errors using Kiro CLI",
+            "link": "https://aws.amazon.com/blogs/storage/troubleshooting-amazon-s3-access-denied-errors-using-kiro-cli/",
+            "date": "Mon, 20 Apr 2026 18:33:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "storage",
+              "S3"
+            ]
+          },
+          {
+            "title": "Storage Reference Guide",
+            "link": "https://www.storagereview.com/storage-reference-guide",
+            "date": "2026-04-26",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "StorageReview.com Sweepstakes Rules and Regulations",
+            "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+            "date": "2026-04-26",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "performance",
+        [
+          {
+            "title": "Accelerate Apache Hadoop and Apache Iceberg on Amazon S3 with the Analytics Accelerator Library",
+            "link": "https://aws.amazon.com/blogs/storage/accelerate-apache-hadoop-and-apache-iceberg-on-amazon-s3-with-the-analytics-accelerator-library/",
+            "date": "Mon, 20 Apr 2026 15:26:41 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "S3",
+              "performance"
+            ]
+          },
+          {
+            "title": "NVMe Performance Compared: Windows Server 2025 vs. Ubuntu Server 24.04.4 LTS",
+            "link": "https://www.storagereview.com/review/linux-vs-windows-server-2025-native-nvme",
+            "date": "2026-04-26",
+            "source": "StorageReview",
+            "keywords": [
+              "NVMe",
+              "performance"
+            ]
+          }
+        ]
+      ],
+      [
+        "File",
+        [
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "storage",
+              "S3",
+              "FSx"
+            ]
+          }
+        ]
+      ],
+      [
+        "FSx",
+        [
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "storage",
+              "S3",
+              "FSx"
+            ]
+          }
+        ]
+      ],
+      [
+        "disaster recovery",
+        [
+          {
+            "title": "Accelerate development workflows with Amazon EBS Volume Clones",
+            "link": "https://aws.amazon.com/blogs/storage/accelerate-development-workflows-with-amazon-ebs-volume-clones/",
+            "date": "Fri, 17 Apr 2026 19:25:24 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "disaster recovery",
+              "EBS"
+            ]
+          }
+        ]
+      ],
+      [
+        "EBS",
+        [
+          {
+            "title": "Accelerate development workflows with Amazon EBS Volume Clones",
+            "link": "https://aws.amazon.com/blogs/storage/accelerate-development-workflows-with-amazon-ebs-volume-clones/",
+            "date": "Fri, 17 Apr 2026 19:25:24 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "disaster recovery",
+              "EBS"
+            ]
+          }
+        ]
+      ],
+      [
+        "NVMe",
+        [
+          {
+            "title": "NVMe Performance Compared: Windows Server 2025 vs. Ubuntu Server 24.04.4 LTS",
+            "link": "https://www.storagereview.com/review/linux-vs-windows-server-2025-native-nvme",
+            "date": "2026-04-26",
+            "source": "StorageReview",
+            "keywords": [
+              "NVMe",
+              "performance"
+            ]
+          }
+        ]
+      ],
+      [
+        "DAS",
+        [
+          {
+            "title": "LaCie 8big Pro5 Review: 256TB of HAMR-Powered Thunderbolt 5 DAS",
+            "link": "https://www.storagereview.com/review/lacie-8big-pro5-review-256tb-of-hamr-powered-thunderbolt-5-das",
+            "date": "2026-04-26",
+            "source": "StorageReview",
+            "keywords": [
+              "DAS"
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "articles": [
+    {
+      "title": "Migrate to Amazon S3 account regional namespaces",
+      "link": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/",
+      "date": "Fri, 24 Apr 2026 15:48:33 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "S3"
+      ]
+    },
+    {
+      "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+      "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+      "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "File",
+        "storage",
+        "S3",
+        "FSx"
+      ]
+    },
+    {
+      "title": "Troubleshooting Amazon S3 access denied errors using Kiro CLI",
+      "link": "https://aws.amazon.com/blogs/storage/troubleshooting-amazon-s3-access-denied-errors-using-kiro-cli/",
+      "date": "Mon, 20 Apr 2026 18:33:33 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "storage",
+        "S3"
+      ]
+    },
+    {
+      "title": "Accelerate Apache Hadoop and Apache Iceberg on Amazon S3 with the Analytics Accelerator Library",
+      "link": "https://aws.amazon.com/blogs/storage/accelerate-apache-hadoop-and-apache-iceberg-on-amazon-s3-with-the-analytics-accelerator-library/",
+      "date": "Mon, 20 Apr 2026 15:26:41 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "S3",
+        "performance"
+      ]
+    },
+    {
+      "title": "Accelerate development workflows with Amazon EBS Volume Clones",
+      "link": "https://aws.amazon.com/blogs/storage/accelerate-development-workflows-with-amazon-ebs-volume-clones/",
+      "date": "Fri, 17 Apr 2026 19:25:24 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "disaster recovery",
+        "EBS"
+      ]
+    },
+    {
+      "title": "Storage Reference Guide",
+      "link": "https://www.storagereview.com/storage-reference-guide",
+      "date": "2026-04-26",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "StorageReview.com Sweepstakes Rules and Regulations",
+      "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+      "date": "2026-04-26",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "NVMe Performance Compared: Windows Server 2025 vs. Ubuntu Server 24.04.4 LTS",
+      "link": "https://www.storagereview.com/review/linux-vs-windows-server-2025-native-nvme",
+      "date": "2026-04-26",
+      "source": "StorageReview",
+      "keywords": [
+        "NVMe",
+        "performance"
+      ]
+    },
+    {
+      "title": "LaCie 8big Pro5 Review: 256TB of HAMR-Powered Thunderbolt 5 DAS",
+      "link": "https://www.storagereview.com/review/lacie-8big-pro5-review-256tb-of-hamr-powered-thunderbolt-5-das",
+      "date": "2026-04-26",
+      "source": "StorageReview",
+      "keywords": [
+        "DAS"
+      ]
+    }
+  ]
+}
