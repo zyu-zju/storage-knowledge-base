@@ -1,0 +1,77 @@
+=== 存储技术知识库系统状态检查 ===
+检查时间: 2026-05-01 12:00:01 CST
+系统时间: Fri May  1 12:00:01 PM CST 2026
+
+🖥️  系统信息:
+主机名: zyu-ubuntu-jp
+用户: ubuntu
+时区: CST
+
+📁 知识库目录状态:
+知识库路径: /home/ubuntu/.openclaw/workspace/storage-knowledge-base
+目录大小: 5.4M
+文件数量: 880
+目录数量: 271
+
+🔧 Git仓库状态:
+当前分支: main
+远程仓库: git@github.com:zyu-zju/storage-knowledge-base.git
+最后提交: 7d1f22ae41c2b7daee7f1f8d7e64fd25d7cb4625 2026-05-01 自动更新: 2026年05月01日 02:00:01 的存储技术知识库更新
+未提交更改: 8 个文件
+
+📊 日志文件状态:
+日志目录: /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs
+日志文件数量: 4
+日志总大小: 344K
+
+最新的日志文件:
+-rw-rw-r-- 1 ubuntu ubuntu 6.5K Apr 26 22:00 /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/deep-analysis.log
+-rw-rw-r-- 1 ubuntu ubuntu 81K May  1 02:00 /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/sync.log
+-rw-rw-r-- 1 ubuntu ubuntu 15K Apr 30 12:00 /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/status.log
+-rw-rw-r-- 1 ubuntu ubuntu 56K May  1 08:00 /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/collection.log
+
+⏰ 定时任务状态:
+已配置 5 个相关定时任务
+
+# 每天早晨8:00 - 收集存储技术信息
+0 8 * * * cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && python3 scripts/real-collector.py >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/collection.log 2>&1
+
+# 每天凌晨2:00 - 同步到GitHub
+0 2 * * * cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && ./scripts/sync-to-github.sh >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/sync.log 2>&1
+
+# 每周日凌晨3:00 - 清理旧日志（保留7天）
+0 3 * * 0 find /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs -name "*.log" -mtime +7 -delete
+
+# 每天中午12:00 - 检查系统状态
+0 12 * * * cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && [ -f scripts/check-status.sh ] && ./scripts/check-status.sh >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/status.log 2>&1 || true
+
+# 每周日晚上10点 - 深度分析（使用deepseek-reasoner）
+0 22 * * 0 cd /home/ubuntu/.openclaw/workspace/storage-knowledge-base && python3 scripts/deep-analysis-reasoner.py >> /home/ubuntu/.openclaw/workspace/storage-knowledge-base/logs/deep-analysis.log 2>&1
+
+🛠️  脚本状态:
+✅ simple-collector.py: 存在且可执行
+✅ sync-to-github.sh: 存在且可执行
+✅ check-status.sh: 存在且可执行
+
+📰 今日日报状态:
+❌ 今日日报未生成
+预期文件: /home/ubuntu/.openclaw/workspace/storage-knowledge-base/01-每日简报/2026-05-01-存储技术日报.md
+
+💾 磁盘空间状态:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda2        59G   11G   47G  19% /
+
+⚡ 系统负载:
+ 12:00:01 up 41 days, 13:44,  0 user,  load average: 0.00, 0.01, 0.00
+
+🌐 GitHub连接测试:
+✅ SSH连接GitHub正常
+✅ HTTPS访问GitHub正常
+
+⚠️  系统检查结果:
+❌ GitHub同步可能有问题
+最后同步: 未知
+❌ 日报未生成
+✅ 磁盘空间充足: 19%
+
+=== 检查完成 ===
