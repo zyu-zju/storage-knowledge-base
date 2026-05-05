@@ -1,0 +1,303 @@
+{
+  "collected_data": {
+    "date": "2026-05-05",
+    "sources_checked": [
+      "AWS Storage Blog",
+      "Azure Storage Updates",
+      "Google Cloud Blog - Storage",
+      "StorageReview",
+      "Blocks & Files"
+    ],
+    "articles_found": 9,
+    "articles_by_source": {
+      "AWS Storage Blog": 5,
+      "StorageReview": 4
+    },
+    "top_keywords": [
+      [
+        "storage",
+        [
+          {
+            "title": "Migrating SAS grid to the cloud: How Amazon FSx for Lustre Intelligent-Tiering delivers low cost, high performance, storage",
+            "link": "https://aws.amazon.com/blogs/storage/migrating-sas-grid-to-the-cloud-how-amazon-fsx-for-lustre-intelligent-tiering-delivers-the-lowest-cost-high-performance-storage/",
+            "date": "Wed, 29 Apr 2026 14:21:10 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "performance",
+              "FSx",
+              "storage"
+            ]
+          },
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "S3",
+              "FSx",
+              "storage"
+            ]
+          },
+          {
+            "title": "Storage Reference Guide",
+            "link": "https://www.storagereview.com/storage-reference-guide",
+            "date": "2026-05-05",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          },
+          {
+            "title": "StorageReview.com Sweepstakes Rules and Regulations",
+            "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+            "date": "2026-05-05",
+            "source": "StorageReview",
+            "keywords": [
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "S3",
+        [
+          {
+            "title": "Enabling natural language access to structured data using Amazon S3 Tables and Amazon Bedrock Knowledge Bases",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-natural-language-access-to-structured-data-using-amazon-s3-tables-and-amazon-bedrock-knowledge-bases/",
+            "date": "Wed, 29 Apr 2026 19:10:21 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "S3"
+            ]
+          },
+          {
+            "title": "Migrate to Amazon S3 account regional namespaces",
+            "link": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/",
+            "date": "Fri, 24 Apr 2026 15:48:33 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "S3"
+            ]
+          },
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "S3",
+              "FSx",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "performance",
+        [
+          {
+            "title": "Migrating SAS grid to the cloud: How Amazon FSx for Lustre Intelligent-Tiering delivers low cost, high performance, storage",
+            "link": "https://aws.amazon.com/blogs/storage/migrating-sas-grid-to-the-cloud-how-amazon-fsx-for-lustre-intelligent-tiering-delivers-the-lowest-cost-high-performance-storage/",
+            "date": "Wed, 29 Apr 2026 14:21:10 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "performance",
+              "FSx",
+              "storage"
+            ]
+          },
+          {
+            "title": "NVMe Performance Compared: Windows Server 2025 vs. Ubuntu Server 24.04.4 LTS",
+            "link": "https://www.storagereview.com/review/linux-vs-windows-server-2025-native-nvme",
+            "date": "2026-05-05",
+            "source": "StorageReview",
+            "keywords": [
+              "performance",
+              "NVMe"
+            ]
+          }
+        ]
+      ],
+      [
+        "FSx",
+        [
+          {
+            "title": "Migrating SAS grid to the cloud: How Amazon FSx for Lustre Intelligent-Tiering delivers low cost, high performance, storage",
+            "link": "https://aws.amazon.com/blogs/storage/migrating-sas-grid-to-the-cloud-how-amazon-fsx-for-lustre-intelligent-tiering-delivers-the-lowest-cost-high-performance-storage/",
+            "date": "Wed, 29 Apr 2026 14:21:10 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "performance",
+              "FSx",
+              "storage"
+            ]
+          },
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "S3",
+              "FSx",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "Backup",
+        [
+          {
+            "title": "From fragmented to fortified: Motability Operations’ journey to a unified backup strategy with AWS",
+            "link": "https://aws.amazon.com/blogs/storage/from-fragmented-to-fortified-motability-operations-journey-to-a-unified-backup-strategy-with-aws/",
+            "date": "Wed, 29 Apr 2026 21:11:43 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "Backup"
+            ]
+          }
+        ]
+      ],
+      [
+        "File",
+        [
+          {
+            "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+            "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+            "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+            "source": "AWS Storage Blog",
+            "keywords": [
+              "File",
+              "S3",
+              "FSx",
+              "storage"
+            ]
+          }
+        ]
+      ],
+      [
+        "NVMe",
+        [
+          {
+            "title": "NVMe Performance Compared: Windows Server 2025 vs. Ubuntu Server 24.04.4 LTS",
+            "link": "https://www.storagereview.com/review/linux-vs-windows-server-2025-native-nvme",
+            "date": "2026-05-05",
+            "source": "StorageReview",
+            "keywords": [
+              "performance",
+              "NVMe"
+            ]
+          }
+        ]
+      ],
+      [
+        "DAS",
+        [
+          {
+            "title": "LaCie 8big Pro5 Review: 256TB of HAMR-Powered Thunderbolt 5 DAS",
+            "link": "https://www.storagereview.com/review/lacie-8big-pro5-review-256tb-of-hamr-powered-thunderbolt-5-das",
+            "date": "2026-05-05",
+            "source": "StorageReview",
+            "keywords": [
+              "DAS"
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "articles": [
+    {
+      "title": "From fragmented to fortified: Motability Operations’ journey to a unified backup strategy with AWS",
+      "link": "https://aws.amazon.com/blogs/storage/from-fragmented-to-fortified-motability-operations-journey-to-a-unified-backup-strategy-with-aws/",
+      "date": "Wed, 29 Apr 2026 21:11:43 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "Backup"
+      ]
+    },
+    {
+      "title": "Enabling natural language access to structured data using Amazon S3 Tables and Amazon Bedrock Knowledge Bases",
+      "link": "https://aws.amazon.com/blogs/storage/enabling-natural-language-access-to-structured-data-using-amazon-s3-tables-and-amazon-bedrock-knowledge-bases/",
+      "date": "Wed, 29 Apr 2026 19:10:21 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "S3"
+      ]
+    },
+    {
+      "title": "Migrating SAS grid to the cloud: How Amazon FSx for Lustre Intelligent-Tiering delivers low cost, high performance, storage",
+      "link": "https://aws.amazon.com/blogs/storage/migrating-sas-grid-to-the-cloud-how-amazon-fsx-for-lustre-intelligent-tiering-delivers-the-lowest-cost-high-performance-storage/",
+      "date": "Wed, 29 Apr 2026 14:21:10 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "performance",
+        "FSx",
+        "storage"
+      ]
+    },
+    {
+      "title": "Migrate to Amazon S3 account regional namespaces",
+      "link": "https://aws.amazon.com/blogs/storage/migrate-to-amazon-s3-account-regional-namespaces/",
+      "date": "Fri, 24 Apr 2026 15:48:33 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "S3"
+      ]
+    },
+    {
+      "title": "Enabling AI-powered analytics on enterprise file data: Configuring S3 Access Points for Amazon FSx for NetApp ONTAP with Active Directory",
+      "link": "https://aws.amazon.com/blogs/storage/enabling-ai-powered-analytics-on-enterprise-file-data-configuring-s3-access-points-for-amazon-fsx-for-netapp-ontap-with-active-directory/",
+      "date": "Fri, 24 Apr 2026 14:22:36 +0000",
+      "source": "AWS Storage Blog",
+      "keywords": [
+        "File",
+        "S3",
+        "FSx",
+        "storage"
+      ]
+    },
+    {
+      "title": "Storage Reference Guide",
+      "link": "https://www.storagereview.com/storage-reference-guide",
+      "date": "2026-05-05",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "StorageReview.com Sweepstakes Rules and Regulations",
+      "link": "https://www.storagereview.com/storagereview-com-sweepstakes-rules-and-regulations",
+      "date": "2026-05-05",
+      "source": "StorageReview",
+      "keywords": [
+        "storage"
+      ]
+    },
+    {
+      "title": "NVMe Performance Compared: Windows Server 2025 vs. Ubuntu Server 24.04.4 LTS",
+      "link": "https://www.storagereview.com/review/linux-vs-windows-server-2025-native-nvme",
+      "date": "2026-05-05",
+      "source": "StorageReview",
+      "keywords": [
+        "performance",
+        "NVMe"
+      ]
+    },
+    {
+      "title": "LaCie 8big Pro5 Review: 256TB of HAMR-Powered Thunderbolt 5 DAS",
+      "link": "https://www.storagereview.com/review/lacie-8big-pro5-review-256tb-of-hamr-powered-thunderbolt-5-das",
+      "date": "2026-05-05",
+      "source": "StorageReview",
+      "keywords": [
+        "DAS"
+      ]
+    }
+  ]
+}
